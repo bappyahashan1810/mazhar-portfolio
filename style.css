@@ -1,0 +1,40 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    padding: 0%;
+}
+
+.orange-color {
+    color: orangered;
+}
+
+.width-div {
+    width: 50%;
+    padding-left: 5px;
+
+}
+
+.flexi-container {
+    display: flex;
+    margin: 100px;
+
+}
+
+.button {
+    border: 2px solid white;
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    border-radius: 7px;
+    padding: 10px 40px;
+    font-weight: 800px;
+}
+
+.top-background {
+    background-image: url(image/top-banner.png);
+    background-repeat: no-repeat;
+
+}
+
+.width-div img {
+    width: 100%;
+}
