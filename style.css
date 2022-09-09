@@ -5,12 +5,14 @@ body {
 }
 
 .orange-color {
-    color: orangered;
+    color: rgb(182, 62, 19);
 }
 
 .width-div {
     width: 50%;
     padding-left: 5px;
+    margin-left: 5px;
+    margin-left: 10px;
 
 }
 
@@ -37,4 +39,50 @@ body {
 
 .width-div img {
     width: 100%;
+}
+
+.dream-big {
+    background-image: url(image/dream-bg.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.experience-item {
+    box-shadow: 27px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 27px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 27px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    margin-right: 40px;
+    margin-left: 20px;
+
+}
+
+#experience-item-right {
+    border-bottom: 5px solid;
+    border-image: linear-gradient(blue, green);
+    border-image-slice: 1;
+}
+
+#experience-item-left {
+    border-bottom: 5px solid;
+    border-image: linear-gradient(orange, tomato);
+    border-image-slice: 1;
+
+}
+
+.experience {
+    background-image: url(image/exp-bg.png);
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+.experience-design {
+    font-family: monospace;
+    color: dimgray;
+    font-size: 60px;
+    padding: 50px;
+}
+
+.last {
+    text-align: center;
+    font-size: 20px;
 }
